@@ -1,0 +1,20 @@
+{
+  "name": "bulk-domain",
+  "version": "1.0.0",
+  "description": "domain searcher",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "LazareC",
+  "license": "ISC",
+  "dependencies": {
+    "whois": "^2.13.7",
+    "whois-parsed": "^1.0.13"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "@types/whois-parsed": "*"
+  }
+}
