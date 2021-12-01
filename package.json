@@ -5,16 +5,18 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "start": "electron ."
   },
   "author": "LazareC",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.22.0",
     "whois": "^2.13.7",
-    "whois-parsed": "^1.0.13"
+    "whois-parsed": "github:Lazare-C/whois-parsed"
   },
   "devDependencies": {
     "@types/node": "^16.9.6",
-    "@types/whois-parsed": "*"
+    "@types/whois-parsed": "^1.0.1"
   }
 }
